@@ -1,0 +1,9 @@
+# Core dependencies (ALREADY INSTALLED in your Python environment)
+fastapi>=0.110.0
+uvicorn>=0.28.0
+numpy>=1.26.0
+pydantic>=2.6.0
+python-multipart>=0.0.9
+
+# Note: The ML engine uses a built-in high-performance vectorized NumPy Isolation Forest & Risk Forecaster.
+# All required packages are already satisfied. No additional heavy packages needed.

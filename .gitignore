@@ -1,0 +1,19 @@
+# Ignore a specific file
+.env
+config.local.json
+
+# Ignore all files with a specific extension
+*.log
+*.tmp
+
+# Ignore an entire folder and everything inside it
+node_modules/
+build/
+
+# Exception: Do NOT ignore a specific file inside an ignored pattern
+!important.log
+
+# Test Files
+run_backend.bat
+run_frontend.bat
+start_full_app.bat
